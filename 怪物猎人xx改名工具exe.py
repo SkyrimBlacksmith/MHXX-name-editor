@@ -13,11 +13,11 @@ def check():
 		tmessagebox.showinfo('错误', '名字过长且名字不能为空');
 		sys.exit();
 
-Tk().withdraw();
-
 path = input('输入存档路径(绝对路径和相对路径皆可)');
 slot = int(input('输入存档栏位：'));
 name = input('输入想要的名称：');
+
+Tk().withdraw();
 
 check();
 
